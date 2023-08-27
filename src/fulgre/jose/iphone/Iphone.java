@@ -13,6 +13,12 @@ public class Iphone {
         ligar();
 
         escolherAplicativo();
+
+        desligar();
+    }
+
+    private static void desligar() {
+        System.out.println("Desligando Aparelho");
     }
 
     private static void escolherAplicativo() {
